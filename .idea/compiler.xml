@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,6 +10,7 @@
         <module name="iam-service" />
         <module name="comment-service" />
         <module name="post-service" />
+        <module name="config-service" />
         <module name="search-service" />
         <module name="api-gateway" />
         <module name="marketplace-service" />
@@ -20,6 +22,7 @@
     <bytecodeTargetLevel>
       <module name="api-gateway" target="17" />
       <module name="comment-service" target="17" />
+      <module name="config-service" target="17" />
       <module name="iam-service" target="17" />
       <module name="marketplace-service" target="17" />
       <module name="notification-service" target="17" />
@@ -33,6 +36,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="comment-service" options="-parameters" />
+      <module name="config-service" options="-parameters" />
       <module name="iam-service" options="-parameters" />
       <module name="marketplace-service" options="-parameters" />
       <module name="notification-service" options="-parameters" />

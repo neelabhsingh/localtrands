@@ -24,6 +24,11 @@ public class User {
 //    @Column(nullable = false)
 //    private Date updatedOn;
 
+
+    public long getId() {
+        return id;
+    }
+
     public String getUsername() {
         return username;
     }

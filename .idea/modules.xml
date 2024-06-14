@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/comment-service/comment-service.iml" filepath="$PROJECT_DIR$/comment-service/comment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-service/config-service.iml" filepath="$PROJECT_DIR$/config-service/config-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/iam-service/iam-service.iml" filepath="$PROJECT_DIR$/iam-service/iam-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/localtrands.iml" filepath="$PROJECT_DIR$/.idea/localtrands.iml" />
       <module fileurl="file://$PROJECT_DIR$/marketplace-service/marketplace-service.iml" filepath="$PROJECT_DIR$/marketplace-service/marketplace-service.iml" />
